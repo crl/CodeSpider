@@ -1,0 +1,31 @@
+﻿<Window x:Class="Spider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spider"
+        mc:Ignorable="d" AllowDrop="True"
+        Title="Spider" Height="450" Width="800" Drop="Window_Drop">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <Label Content="路径:"/>
+            <TextBlock  x:Name="filePathTF" VerticalAlignment="Center" Width="700"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Bottom">
+            <ProgressBar x:Name="processBar" Height="5" Value="100"/>
+            <DockPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="replaceAndNextBtn" Content="替换并查找下一个" HorizontalAlignment="Left" Click="replaceAndNextBtn_Click" Padding="5,2" Margin="3"/>
+                <Button x:Name="nextBtn" Content="下一个" HorizontalAlignment="Left" Padding="5,2" Margin="3" Click="nextBtn_Click"/>
+                <Button x:Name="prevBtn" Content="上一个" HorizontalAlignment="Left" Click="prevBtn_Click" Padding="5,2" Margin="3"/>
+                <Button x:Name="onlySaveLangBtn" Content="仅保存语言文件" HorizontalAlignment="Left" Click="onlySaveLangBtn_Click" Padding="5,2" Margin="3"/>
+            </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <CheckBox x:Name="isOnlySaveLangCb" Content="自动仅保存语言文件" VerticalAlignment="Center"  Padding="5,2" Margin="3"/>
+                    <CheckBox x:Name="isAutoCb" Content="自动处理" VerticalAlignment="Center"  Padding="5,2" Margin="3"/>
+                </StackPanel>
+            </DockPanel>
+        </StackPanel>
+        <TextBox x:Name="contentTF" VerticalScrollBarVisibility="Auto" BorderThickness="5"/>
+    </DockPanel>
+</Window>

@@ -21,10 +21,10 @@ namespace Translater
         public string dst;
     }
 
-        /// <summary>
-        /// https://fanyi-api.baidu.com/
-        /// </summary>
-        public class Translater
+    /// <summary>
+    /// https://fanyi-api.baidu.com/
+    /// </summary>
+    public class Translater
     {  // 改成您的APP ID
         private static string appId = "20220727001284925";
         // 改成您的密钥
@@ -68,8 +68,8 @@ namespace Translater
             {
                 Console.WriteLine(ex.Message);
             }
-            
-           
+
+
             return null;
         }
         // 计算MD5值

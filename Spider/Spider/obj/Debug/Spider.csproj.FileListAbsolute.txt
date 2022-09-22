@@ -1,0 +1,14 @@
+D:\workspaces\Spider\Spider\bin\Debug\Spider.exe
+D:\workspaces\Spider\Spider\bin\Debug\Spider.pdb
+D:\workspaces\Spider\Spider\obj\Debug\Spider.csprojAssemblyReference.cache
+D:\workspaces\Spider\Spider\obj\Debug\MainWindow.g.cs
+D:\workspaces\Spider\Spider\obj\Debug\App.g.cs
+D:\workspaces\Spider\Spider\obj\Debug\Spider_MarkupCompile.cache
+D:\workspaces\Spider\Spider\obj\Debug\Spider_MarkupCompile.lref
+D:\workspaces\Spider\Spider\obj\Debug\MainWindow.baml
+D:\workspaces\Spider\Spider\obj\Debug\Spider.g.resources
+D:\workspaces\Spider\Spider\obj\Debug\Spider.Properties.Resources.resources
+D:\workspaces\Spider\Spider\obj\Debug\Spider.csproj.GenerateResource.cache
+D:\workspaces\Spider\Spider\obj\Debug\Spider.csproj.CoreCompileInputs.cache
+D:\workspaces\Spider\Spider\obj\Debug\Spider.exe
+D:\workspaces\Spider\Spider\obj\Debug\Spider.pdb

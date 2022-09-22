@@ -23,7 +23,7 @@ namespace Translater
     {
         public static List<string> langsKey = new List<string>
         {
-            "en","cht","jp","kor"
+            "en","cht","jp","kor","th"
         };
 
         public static string LangPrefix= "C:/Users/chenronglong/Desktop/Code/";
